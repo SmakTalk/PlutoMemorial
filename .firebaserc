@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "plutomemorial": {
+      "hosting": {
+        "PlutoMemorial": [
+          "plutomemorial"
+        ]
+      }
+    }
+  }
+}
