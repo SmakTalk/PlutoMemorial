@@ -5,6 +5,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FooterModule } from './footer/footer.module';
+import { HeaderModule } from './header/header.module';
 import { HomeModule } from './home/home.module';
 import { environment } from '../environments/environment';
 
@@ -16,6 +18,8 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FooterModule,
+    HeaderModule,
     HomeModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
