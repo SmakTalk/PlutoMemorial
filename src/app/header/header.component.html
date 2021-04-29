@@ -1,1 +1,12 @@
-<p>header works!</p>
+<mat-toolbar id="header-toolbar" color="primary">
+  <a mat-flat-button color="primary" routerLink="/" id="title">
+    Pluto Memorial
+  </a>
+  <div fxLayout="row">
+    <div *ngFor="let link of links">
+      <a mat-flat-button color="primary" [routerLink]="'/' + link">
+        {{ link | titlecase}}
+      </a>
+    </div>
+  </div>
+</mat-toolbar>

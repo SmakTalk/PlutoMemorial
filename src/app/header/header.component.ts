@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  links: string[];
+
+  constructor() {
+    this.links = ['about', 'history', 'moons', 'gallery', 'dedication'];
+  }
 
   ngOnInit(): void {
   }

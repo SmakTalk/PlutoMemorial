@@ -17,6 +17,7 @@
     "@angular/compiler": "~11.2.11",
     "@angular/core": "~11.2.11",
     "@angular/fire": "^6.1.4",
+    "@angular/flex-layout": "^11.0.0-beta.33",
     "@angular/forms": "~11.2.11",
     "@angular/localize": "^11.2.11",
     "@angular/material": "^11.2.10",
@@ -25,10 +26,10 @@
     "@angular/router": "~11.2.11",
     "@angular/service-worker": "~11.2.11",
     "angular-epic-spinners": "^2.0.0",
+    "firebase": "^7.0 || ^8.0",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2",
-    "firebase": "^7.0 || ^8.0"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1102.10",
