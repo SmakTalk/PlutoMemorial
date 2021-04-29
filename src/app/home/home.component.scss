@@ -1,0 +1,17 @@
+#home {
+  height: 100vh;
+
+  #overlay {
+    background-color: rgba(254, 254, 254, 0.03);
+    border-radius: 50%;
+    color: #010101;
+    height: 60vh;
+    margin-bottom: 9%;
+    width: 60vh;
+
+    .text {
+      font-size: 96px;
+      font-weight: bold;
+    }
+  }
+}
