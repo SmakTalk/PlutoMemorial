@@ -5,6 +5,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AboutModule } from './about/about.module';
 import { FooterModule } from './footer/footer.module';
 import { HeaderModule } from './header/header.module';
 import { HomeModule } from './home/home.module';
@@ -19,6 +20,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    AboutModule,
     FooterModule,
     HeaderModule,
     HomeModule,
