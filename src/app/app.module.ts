@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { AboutModule } from './about/about.module';
 import { FooterModule } from './footer/footer.module';
 import { HeaderModule } from './header/header.module';
+import { HistoryModule } from './history/history.module';
 import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { environment } from '../environments/environment';
@@ -23,6 +24,7 @@ import { environment } from '../environments/environment';
     AboutModule,
     FooterModule,
     HeaderModule,
+    HistoryModule,
     HomeModule,
     SharedModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
