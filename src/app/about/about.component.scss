@@ -1,35 +1,24 @@
-#about {
-  background-color: rgba(254, 254, 254, 0.75);
-  height: 90vh;
-  width: 100vw;
+.text {
+  color: #010101;
+  margin: auto;
+  width: fit-content;
+}
 
-  #inner {
-    margin: auto;
-    width: 50vw;
+#title {
+  font-size: 54px;
+  font-weight: 600;
+  padding-top: 15%;
+}
 
-    .text {
-      color: #010101;
-      margin: auto;
-      width: fit-content;
-    }
+#write-up {
+  font-size: 28px;
+  line-height: normal;
+  padding-top: 60px;
+}
 
-    #title {
-      font-size: 54px;
-      font-weight: 600;
-      padding-top: 15%;
-    }
-
-    #write-up {
-      font-size: 28px;
-      line-height: normal;
-      padding-top: 60px;
-    }
-
-    #poem {
-      font-size: 24px;
-      font-weight: 500;
-      padding-top: 40px;
-      text-align: center;
-    }
-  }
+#poem {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 40px;
+  text-align: center;
 }
