@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   links: string[];
 
   constructor() {
-    this.links = ['about', 'history', 'moons', 'gallery', 'dedication'];
+    this.links = ['about', 'history', 'gallery', 'dedication'];
   }
 
   ngOnInit(): void {
